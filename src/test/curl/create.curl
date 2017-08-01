@@ -1,0 +1,7 @@
+curl -X POST \
+  http://localhost:8080/wsusers \
+  -H 'content-type: application/json' \
+  -d '{
+       "name" : "ercan",
+       "email" : "ercanxcan@gmail.com"
+   }'
